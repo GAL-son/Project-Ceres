@@ -7,6 +7,7 @@
 #include <iostream>
 
 #include "Sequence.h"
+#include "Camera.h"
 
 class Engine
 {
@@ -18,6 +19,8 @@ class Engine
 		int windowWidth;
 		int windowHeight;
 		GLFWwindow* appWindow;
+		Camera camera;
+		
 };
 
 
