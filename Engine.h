@@ -19,7 +19,6 @@ class Engine
 		int windowWidth;
 		int windowHeight;
 		GLFWwindow* appWindow;
-		Camera camera;
 		
 };
 
